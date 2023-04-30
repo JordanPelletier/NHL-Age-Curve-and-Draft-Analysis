@@ -7,7 +7,7 @@ For full description of the project and results please read my article on the pr
 
 **xG model data setup:** Code to convert raw NHL play by play data into a dataset used for an expected goals model. Play by play scrapped with Harry Shomer's NHL PBP scrapper
 
-**xG_Models:** Testing various models and producing visuals describing the returned values of the model.
+**xG_Models:** Testing various models and producing visuals describing the returned values of the model.CV gridsearch was used to optimize models, and then had their code removed to reduce clutter.
 
 **RAPM:** xG values are merged back onto the raw PBP. This is then used as a dataset to produce an RAPM model, where the coefficients are used as a dataset later on.
 
